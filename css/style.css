@@ -1,0 +1,170 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: monospace;
+
+ }
+
+ body {
+     background-color: rgb(255, 255, 255)
+ }
+
+ header {
+     display: flex;
+     color: rgb(255, 255, 255);
+     font-size: 20px;
+     font-family: monospace, 'Courier New', Courier;
+     background-color: rgb(28, 48, 90);
+     width: 100%;
+     max-width: 1350px;
+     margin: 0 auto;
+     justify-content: space-between;
+     padding: 10px 20px;
+
+ }
+
+ .titulo {
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+ }
+
+ .logo {
+     width: 100%;
+     height: 100%;
+     max-width: 90px;
+     max-height: 90px;
+     padding: 0px;
+     margin: 0px;
+     border-radius: 10px;
+     justify-content: baseline;
+     align-items: center;
+
+
+ }
+
+ .carrinho {
+     font-size: 15px;
+     display: flex;
+     align-items: center;
+ }
+
+ .left {
+
+     background: rgb(237, 237, 237);
+     flex: 0 1 300px;
+     padding: 20px;
+     padding-right: 20px;
+     max-width: 140px;
+     max-height: 1200px;
+     width: 100%;
+     margin: 0px;
+     border-top-right-radius: 4px;
+     border-bottom-right-radius: 4px
+ }
+
+
+ .container {
+     display: flex;
+     /* grow | shrink | basis */
+     flex: 1 1 auto;
+     max-height: 100px;
+     height: 100%;
+
+
+ }
+
+
+
+ .grid-produtos {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+     gap: 20px;
+     width: 80%;
+ }
+
+ .container2 {
+     background-color: #eeeeee;
+     padding: 20px;
+     border-radius: 5px;
+     box-shadow: 1px 2px rgb(178, 178, 178);
+
+     display: grid;
+     grid-template-rows: auto 1fr auto;
+     gap: 10px;
+
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+     cursor: pointer;
+ }
+
+ .container2:hover {
+     transform: scale(1.05);
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+ }
+
+ .main-layout {
+     display: grid;
+     grid-template-columns: 200px 1fr;
+     gap: 20px;
+     max-width: 1350px;
+     margin: 0 auto;
+     padding: 20px;
+ }
+
+ .kratos {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 210px;
+     width: 210px;
+     border-radius: 5px;
+     margin: 5px;
+     border: 1px black;
+
+ }
+
+  .finalizar{
+
+      background-color: rgb(51, 101, 186);
+     color: white;
+     height: 30px;
+     width: 70px;
+     border-radius: 5px;
+     cursor: pointer;
+     
+ }
+
+
+ button {
+     background-color: rgb(51, 101, 186);
+     color: white;
+     height: 30px;
+     width: 60px;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+
+ button:hover {
+
+     background-color: rgb(95, 186, 255);
+     color: black;
+ }
+
+ footer {
+     display: flex;
+     color: rgb(255, 255, 255);
+     font-size: 20px;
+     font-family: monospace, 'Courier New', Courier;
+     background-color: rgb(28, 48, 90);
+     width: 100%;
+     max-width: 1350px;
+     margin: 0 auto;
+     justify-content: space-between;
+     padding: 10px 20px;
+
+ }
+
